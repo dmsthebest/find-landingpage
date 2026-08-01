@@ -1,3 +1,10 @@
 {
+  "redirects": [
+    { "source": "/barbearias", "destination": "https://find-gamma-ten.vercel.app/", "permanent": false },
+    { "source": "/entrar", "destination": "https://find-gamma-ten.vercel.app/entrar", "permanent": false },
+    { "source": "/cadastro", "destination": "https://find-gamma-ten.vercel.app/cadastro", "permanent": false },
+    { "source": "/minhas-reservas", "destination": "https://find-gamma-ten.vercel.app/minhas-reservas", "permanent": false },
+    { "source": "/painel/:path*", "destination": "https://find-gamma-ten.vercel.app/painel/:path*", "permanent": false }
+  ],
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
