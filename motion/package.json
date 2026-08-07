@@ -1,0 +1,24 @@
+{
+  "name": "find-motion-v2",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render FindMotionV2 out/find-demo-v2.mp4",
+    "still": "remotion still FindMotionV2 out/preview.png"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.286",
+    "@remotion/google-fonts": "4.0.286",
+    "@remotion/media-utils": "4.0.286",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "4.0.286"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "~5.7.2"
+  }
+}
